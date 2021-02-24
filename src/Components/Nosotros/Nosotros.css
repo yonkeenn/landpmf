@@ -1,0 +1,51 @@
+
+.contact-details{
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(10px);
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+.log{
+    display: inline-block;
+}
+
+
+.fab{
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-facebook-square::before {
+    content: "\f082";
+}
+
+.fa-github::before {
+    content: "\f09b";
+}
+
+.fa-twitter::before {
+    content: "\f099";
+}
+
+.fa-at::before {
+    content: "\f1fa";
+}
+
+.fa-mobile-alt::before {
+    content: "\f3cd";
+}
+
+
+#footer{
+
+    margin: 10px auto;
+}

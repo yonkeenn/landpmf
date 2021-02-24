@@ -1,0 +1,72 @@
+
+
+.luz{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.vhflex{
+    height: 55vh;
+}
+
+.buttonBg{
+    background-color: rgb(241, 148, 175);
+}
+
+.color-boton{
+    color: white;
+    background-color: rgb(241, 148, 175);
+}
+
+
+.color-boton2:hover{
+    color: white;
+    background-color: #691495;
+    border-color:  #691495;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+
+.arrow{
+    
+    position: absolute;
+    bottom: 0;
+    -webkit-animation: callToAction 3.5s linear 0s infinite;
+    animation: callToAction 3.5s linear 0s infinite;
+}
+
+.icon-arrow-down{
+    transition: all .5s;
+}
+
+
+@keyframes callToAction{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    85% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+
+}

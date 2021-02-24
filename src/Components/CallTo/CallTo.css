@@ -1,0 +1,82 @@
+.img-back2 {
+    background-image: url('background2.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#calltoaction{
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#contact{
+    height: 90vh;
+    border-bottom: 4px solid #B60D35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact h2{
+    margin: 0;
+}
+
+.contact-details{
+
+
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(10px);
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+
+
+.fab{
+    font-family: "Font Awesome 5 Brands";
+}
+
+.fa-facebook-square::before {
+    content: "\f082";
+}
+
+.fa-github::before {
+    content: "\f09b";
+}
+
+.fa-twitter::before {
+    content: "\f099";
+}
+
+.fa-at::before {
+    content: "\f1fa";
+}
+
+.fa-mobile-alt::before {
+    content: "\f3cd";
+}
+
+
+#footer{
+
+    margin: 10px auto;
+}
+
+
+
+
+

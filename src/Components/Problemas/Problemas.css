@@ -1,0 +1,53 @@
+.img-back1 {
+    background-image: url('background1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+
+.color-boton{
+    color: #09B36A;
+}
+
+.arrow1{
+    
+
+    -webkit-animation: callToAction 3.5s linear 0s infinite;
+    animation: callToAction 3.5s linear 0s infinite;
+}
+
+.icon-arrow-down1{
+    transition: all .5s;
+}
+
+.vh-20{
+    height: 20vh; 
+}
+@keyframes callToAction{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    85% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+
+}

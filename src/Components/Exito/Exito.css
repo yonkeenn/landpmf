@@ -1,0 +1,56 @@
+.img-back4 {
+    background-image: url('exitoPro.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.arrow{
+    
+    position: absolute;
+    bottom: 0;
+    -webkit-animation: callToAction 3.5s linear 0s infinite;
+    animation: callToAction 3.5s linear 0s infinite;
+}
+
+.icon-arrow-down{
+    transition: all .5s;
+}
+
+
+@keyframes callToAction{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    85% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px);
+    }
+
+}
+
+
+@media screen and (min-width: 60em) {
+
+    .w18l { width: 18%; }
+    .vh40 { height: 40vh; }
+    .w90 { width: 90%; }
+
+}
