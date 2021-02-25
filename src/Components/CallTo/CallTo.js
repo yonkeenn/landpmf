@@ -44,7 +44,7 @@ class CallTo extends Component {
                             <article className="fl w-40 dib-ns w-auto-ns mr4-m mr5-l mb0 pr2 pr0-ns">
                                 <h4 className="f7 f5-l fw1 ma0">Telefono</h4>
                                 <a className="f7 f5-ns db fw6 pv0 black-70 white link dim" title="Call SF" href="tel:+51-997502031">
-                                    +51-997502031
+                                    +51-902551938
                                 </a>
                             </article>
 
@@ -67,7 +67,7 @@ class CallTo extends Component {
                                 <i className="fab fa-facebook-square f2"></i>
                             </a>
         
-                            <a className="link hover-silver near-white dib mv1 mh2 tc" href="https://wa.me/51997502031?text=Hola%2C+ITRESSE%2C+Estoy+interesado+en+sus+servicios" target="_blank" rel='noreferrer'>
+                            <a className="link hover-silver near-white dib mv1 mh2 tc" href="https://wa.me/51902551938?text=Hola%2C+ITRESSE%2C+Estoy+interesado+en+sus+servicios" target="_blank" rel='noreferrer'>
                                 <i className="fab fa-whatsapp f2"></i>
                             </a>
         
