@@ -37,13 +37,13 @@ class CallTo extends Component {
 
                 </section>
 
-                <footer className="ph2 ph4-ns black-70 bt white b--black-10">
+                <footer className="ph4 ph4-ns black-70 bt white b--black-10">
                     <div className="flex flex-column flex-row-l mt3 items-center justify-between-l">
 
                         <div className='dn-s dn-m'>
                             <article className="fl w-40 dib-ns w-auto-ns mr4-m mr5-l mb0 pr2 pr0-ns">
                                 <h4 className="f7 f5-l fw1 ma0">Telefono</h4>
-                                <a className="f7 f5-ns db fw6 pv0 black-70 white link dim" title="Call SF" href="tel:+51-997502031">
+                                <a className="f7 f5-ns db fw6 pv0 black-70 white link dim" title="Call SF" href="tel:+51-902551938">
                                     +51-902551938
                                 </a>
                             </article>

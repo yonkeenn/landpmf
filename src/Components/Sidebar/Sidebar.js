@@ -83,7 +83,7 @@ class Sidebar extends React.Component{
                   </article>
 
                   <article className="fl w-100 dib-ns w-auto-ns mt3  tc">
-                    <a href="tel:+51-997502031" className="f6 db fw1 pv2 link dim white" title="Call Lima office.">
+                    <a href="tel:+51-902551938" className="f6 db fw1 pv2 link dim white" title="Call Lima office.">
                       +51-902551938
                     </a>
                   </article>
